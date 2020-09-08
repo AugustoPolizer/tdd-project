@@ -1,0 +1,12 @@
+O processo de desenvolvimento TDD utilizando testes funcionais e testes de unidade
+é feito da seguinte forma: Primeiramente, escrevemos um teste funcional e tentamos
+roda-lo, caso ele passe, analisamos o código é decidimos se é necessário refatorar
+alguma parte dele, caso não seja, podemos passar para o próximo teste funcional.
+No caso onde o teste funcional falha, iniciamos um outro ciclo de TDD, voltado para
+teste de unidade, nesse caso escrevemos um teste de unidade, se o teste passar, tentamos
+novamente executar o teste funcional, caso o teste funcional passe vamos para o estágio
+refatoração descrito acima. Se o teste de unidade não passa, escrevemos uma quantidade
+mínima de código e tentamos novamente rodar o teste, caso eles passe, analisamos
+a possibilidade de refatoração, caso ela não exista voltamos para o teste funcional, se teste
+de unidade não passar fazemos outra pequena alteração no código e tentamos novamente rodar o teste,
+ficando nesse ciclo até o teste de unidade passar.
