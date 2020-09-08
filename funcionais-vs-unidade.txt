@@ -1,0 +1,5 @@
+Testes funcionais são testes de alto nível que simulam a interação de um usuário com o sistema, um teste funcional
+pode abranger uma grande parte dosistema, esse tipo de teste tenta garantir o funcionamento geral do sistema.
+Teste de unidade, por outro lado, são testes que atuam sobre pequenas faixas de code (um função ou método) e 
+tem principal função de eliminar bugs e manter o custo de manutenção do software baixo.
+
