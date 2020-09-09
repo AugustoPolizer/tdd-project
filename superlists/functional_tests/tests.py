@@ -70,7 +70,7 @@ class NewVisitorTest(LiveServerTestCase):
         # Satisfeita, ela vai dormir
 
 
-     def test_multiple_users_can_start_lists_at_different_urls(self):
+    def test_multiple_users_can_start_lists_at_different_urls(self):
         # Maria começa uma nova lista
         self.browser.get(self.live_server_url)
         inputbox = self.browser.find_element_by_id('id_new_item')
