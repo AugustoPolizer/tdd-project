@@ -21,4 +21,8 @@ urlpatterns = [
     path('', views.home_page, name='home'),
     path('lists/new', views.new_list, name='new_list'),
     path('lists/<list_id>/', views.view_list, name='view_list'),
+
+    path('accounts/send_email' accounts_views.send_login_email, name='send_login_email'),
+    path('accounts/login' accounts_views.login, name='login'),
+    path('accounts/logout' accounts_views.logout, name='logout'),
 ]
