@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from lists import views
+from accounts import views as accounts_views
 
 urlpatterns = [
     path('', views.home_page, name='home'),
     path('lists/new', views.new_list, name='new_list'),
     path('lists/<list_id>/', views.view_list, name='view_list'),
+
+    path('accounts/send_login_email', accounts_views.send_login_email, name='send_login_email'),
 ]
